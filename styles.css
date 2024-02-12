@@ -7,8 +7,16 @@ h1 {
 }
 
 .intro-heading {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
+}
+
+.intro-h4 {
+    font-size: 30px;
+}
+
+.intro-recipes {
+    font-size: 22px;
 }
 
 img {
@@ -61,4 +69,30 @@ button {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.github-plug {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+.profile-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: solid black;
+}
+
+.profile-container {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(200%, 50%);
+}
+
+.profile-button {
+    border-radius: 50px;
 }
